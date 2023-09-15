@@ -5,6 +5,8 @@ Projeto desenvolvido durante o NLW IA da Rocketseat.
 
 **Backend do Projeto Upload.IA**
 
+[link do frontend](https://github.com/Pigarts/upload.ia/tree/main)
+
 Este projeto foi desenvolvido durante o evento NLW IA da Rocketseat com o objetivo de simplificar e promover a primeira aplicação de inteligência artificial para desenvolvedores em seus próprios projetos.
 
 ### Lembretes
@@ -31,7 +33,7 @@ Este aplicativo (backend) é responsável por:
 **Upload de Áudio**
 
 - Rota: `POST /videoupload`
-- Descrição: Usada para receber arquivos de áudio (.mp3) via método multipart, extraídos dos vídeos pelo frontend [link do frontend](https://github.com/Pigarts/upload.ia/tree/main). O backend armazena o áudio, salva informações como nome, ID, local de armazenamento e data de registro no banco de dados.
+- Descrição: Usada para receber arquivos de áudio (.mp3) via método multipart, extraídos dos vídeos pelo frontend. O backend armazena o áudio, salva informações como nome, ID, local de armazenamento e data de registro no banco de dados.
 
 **Gerar Transcrição**
 
@@ -62,6 +64,8 @@ Project developed during Rocketseat's NLW IA event.
 
 **Backend of the Upload.IA Project**
 
+[frontend link](https://github.com/Pigarts/upload.ia/tree/main)
+
 This project was developed during Rocketseat's NLW IA event with the aim of simplifying and promoting the first application of artificial intelligence for developers in their own projects.
 
 ### Reminders
@@ -88,7 +92,7 @@ This application (backend) is responsible for:
 **Audio Upload**
 
 - Route: `POST /videoupload`
-- Description: Used to receive audio files (.mp3) via the multipart method, extracted from videos by the frontend [frontend link](https://github.com/Pigarts/upload.ia/tree/main). The backend stores the audio, saves information such as name, ID, storage location, and registration date in the database.
+- Description: Used to receive audio files (.mp3) via the multipart method, extracted from videos by the frontend. The backend stores the audio, saves information such as name, ID, storage location, and registration date in the database.
 
 **Generate Transcription**
 
