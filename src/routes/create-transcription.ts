@@ -6,7 +6,7 @@ import { openai } from "../lib/openia"
 import { traceDeprecation } from "process"
 
 export async function createTranscription(app: FastifyInstance) {
-    app.post(`/videoupload/:videoId/transcription`, async (req) => {
+    app.post(`/video/:videoId/transcription`, async (req) => {
         const paramsSchema = z.object({
             videoId: z.string().uuid(),
         })
